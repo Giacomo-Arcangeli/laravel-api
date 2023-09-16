@@ -17,7 +17,7 @@ class ProjectSeeder extends Seeder
     {
         Storage::makeDirectory('project_covers');
 
-        for ($i = 0; $i < 12; $i++) {
+        for ($i = 0; $i < 8; $i++) {
             $project = new Project();
 
             $project->title = $faker->sentence(3);
