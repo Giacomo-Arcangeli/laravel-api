@@ -19,11 +19,11 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('APP_FRONTEND_URL', 'http://localhost:5174/')],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headers' => [env('APP_FRONTEND_URL', 'http://localhost:5174/')],
+    'allowed_headers' => ['*'],
 
     'exposed_headers' => [],
 
